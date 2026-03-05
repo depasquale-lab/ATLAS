@@ -24,6 +24,11 @@ build/
 *.hdf5
 *.pkl
 *.csv
+*.mat
+*.avi
+*.mp4
+*.mov
+data/
 
 # OS
 .DS_Store

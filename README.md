@@ -26,6 +26,16 @@ raw time series (keypoints / behavioral statistics)
 
 ---
 
+![Jellyfish hull trajectory example](assets/jellyfish_hull.gif)
+
+*Example: convex hull of a jellyfish body over time — the kind of behavioral time series ATLAS is designed to encode and align across individuals.*
+
+![Stickleback swimming trajectory example](assets/stickleback_swimming.gif)
+
+*Example: stickleback fish swimming trajectory — pose and movement time series across individuals and conditions.*
+
+---
+
 ## Motivation
 
 Behavioral neuroscience faces a fundamental challenge: no two animals move in exactly the same way. Differences in body size, recording angle, and individual variation make it hard to directly compare neural or behavioral data across subjects. ATLAS is built to bridge this gap — learning the structure of behavior in a representation that generalizes.

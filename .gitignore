@@ -15,20 +15,32 @@ build/
 # Jupyter
 .ipynb_checkpoints/
 
-# Data files
+# Data files (raw — too large for git)
 *.pt
 *.pth
-*.npy
-*.npz
 *.h5
 *.hdf5
 *.pkl
-*.csv
 *.mat
 *.avi
 *.mp4
 *.mov
 data/
+
+# Numpy arrays — ignored globally except preprocessed datasets
+*.npy
+*.npz
+!datasets/**/*.npz
+
+# Personal / private notebooks and outputs
+CLAUDE.md
+notebooks/Plotting.ipynb
+notebooks/compare.ipynb
+notebooks/outputs/
+
+# Figure outputs in notebooks root
+notebooks/*.png
+notebooks/*.pdf
 
 # OS
 .DS_Store

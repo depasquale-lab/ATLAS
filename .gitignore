@@ -34,8 +34,7 @@ data/
 
 # Personal / private notebooks and outputs
 CLAUDE.md
-notebooks/Plotting.ipynb
-notebooks/compare.ipynb
+dev_notebooks/
 notebooks/outputs/
 
 # Figure outputs in notebooks root
